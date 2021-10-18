@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d9d9d9;
+  font-size: 0.8em;
+  height: 7.5vh;
+}
+
+.footer-content {
+  margin: auto;
+}
+
+.footer-upper-text {
+  padding: 1rem 1rem 0.2rem;
+}
+
+.footer-lower-text {
+  padding: 0.2rem 1rem 1rem;
+}

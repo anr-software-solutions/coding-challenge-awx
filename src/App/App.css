@@ -1,0 +1,18 @@
+.container {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+.container-header {
+  background-color: green;
+}
+
+.container-content {
+  background-color: #ffffff;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.container-footer {
+  background-color: purple;
+}

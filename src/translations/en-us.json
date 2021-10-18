@@ -1,0 +1,37 @@
+{
+  "modules": {
+    "footer": {
+      "description": "Best healthy food in Melbourne.",
+      "privacyPolicyStatement": "@ 2021 Broccoli & Co. All rights reserved."
+    },
+    "mainContent": {
+      "title": "A better way",
+      "titleRest": "to enjoy every day.",
+      "description": "Be the first to know what we launch.",
+      "buttonText": "Request an invite"
+    },
+    "inputContainer": {
+      "title": "Request an invite!"
+    },
+    "successModal": {
+      "title": "All Done!",
+      "description": "You will be one of the first people to subscribe Broccoli & Co, when we launch",
+      "ok": "Ok"
+    },
+    "formContainer": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "confirmEmail": "Confirm Email",
+      "send": "Send"
+    },
+    "errorMessages": {
+      "fullNameLengthError": "Full name should be at least 3 characters long",
+      "emailError": "Please enter a valid email address",
+      "emptyError": "This field cannot be empty",
+      "confirmEmailError": "Confirm email should be same as Email",
+      "fillFieldsError": "Please fill all the above fields",
+      "validationError": "Please check your inputs are valid",
+      "somethingWentWrong": "Something went wrong. Please try again"
+    }
+  }
+}

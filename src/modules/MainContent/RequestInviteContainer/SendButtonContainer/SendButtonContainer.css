@@ -1,0 +1,9 @@
+.send-button {
+    width: 90%;
+    margin-top: 1rem !important;
+}
+
+.api-error-container {
+    padding: 1rem 1rem 0 0.5rem;
+    color: red;
+}
