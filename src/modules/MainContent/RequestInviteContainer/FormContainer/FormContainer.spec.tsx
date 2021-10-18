@@ -87,7 +87,7 @@ describe('FormContainer', () => {
     act(() => {
       fireEvent.change(inputEmail, {
         target: {
-          value: 'aroshasu',
+          value: 'aroshas',
         },
       })
     })

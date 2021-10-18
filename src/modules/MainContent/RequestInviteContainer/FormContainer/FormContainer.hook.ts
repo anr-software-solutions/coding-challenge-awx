@@ -67,7 +67,11 @@ export const useFormContainer: FormHook = () => {
       return
     }
 
-    if (!/^.+@.+\..+/.test(emailInput)) {
+    if (
+      !/^[a-zA-Z0-9_+&-]+(?:\.[a-zA-Z0-9_+&-]+)*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z-]{2,63}$/g.test(
+        emailInput
+      )
+    ) {
       setIsEmailError(true)
       setEmailError(modules.errorMessages.emailError)
       return

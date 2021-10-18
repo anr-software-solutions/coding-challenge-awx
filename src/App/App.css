@@ -2,6 +2,7 @@
   background-color: red;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .container-header {
   background-color: green;
