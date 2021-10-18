@@ -10,8 +10,7 @@
 
 .container-content {
   background-color: #ffffff;
-  height: 80vh;
-  overflow-y: scroll;
+  height: calc(100vh - 175px);
 }
 
 .container-footer {

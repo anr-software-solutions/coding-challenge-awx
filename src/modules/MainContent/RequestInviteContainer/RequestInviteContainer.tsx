@@ -6,6 +6,7 @@ import { Email } from '@mui/icons-material'
 import { ModalContextProvider } from './ModalContainer/FormModalContext'
 import { ModalContent } from './ModalContainer/ModalContent'
 import { SuccessModalContent } from './SuccessModalContent/SuccessModalContent'
+import './RequestInviteContainer.css'
 
 export const RequestInviteContainer: React.FC = () => {
   const [openFormModal, setOpenFormModal] = useState(false)
@@ -30,6 +31,7 @@ export const RequestInviteContainer: React.FC = () => {
         variant="contained"
         color="success"
         size="large"
+        className="request-button"
         endIcon={<Email />}
         onClick={handleOpenFormModal}
       >
